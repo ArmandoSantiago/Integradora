@@ -17,7 +17,6 @@ public class Conexion {
         Connection con;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
